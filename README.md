@@ -1,6 +1,7 @@
 Simple Arduino-based NMEA datalogger.
 
 NMEA sentence documentation: http://aprs.gids.nl/nmea/
+
 NOTE: Uses custom SD card reader library: https://github.com/adafruit/SD
 
 Hardware Notes:
@@ -9,7 +10,7 @@ Hardware Notes:
 - Both peripherals continually transmit at 1Hz. 
 - Garmin GPS
 	- https://static.garmincdn.com/pumac/GPS16x_TechnicalSpecifications.pdf
-	WIRING
+	- WIRING
 		- RED: Vin (8-40 Vdc, 12V ideal)
 			- ~780mW typical consumption
 		- BLK: Ground
